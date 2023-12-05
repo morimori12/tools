@@ -8,7 +8,6 @@ def convert_tex_file(input_file, output_file):
         f.write(converted_content)
 
 
-# 使い方の例
 input_tex_file = "3.tex"
 output_tex_file = "output.tex"
 convert_tex_file(input_tex_file, output_tex_file)
